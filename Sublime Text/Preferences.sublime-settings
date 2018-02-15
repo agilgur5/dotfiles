@@ -1,0 +1,67 @@
+{
+  "always_show_minimap_viewport": true,
+  "binary_file_patterns":
+  [
+    ".git/*",
+    ".vagrant/*",
+    "migrations/*",
+    "node_modules/*",
+    "vendor/*",
+    "build/*",
+    "staticBuilds/*",
+    "*.min.js",
+    "*.bundle.js",
+    "bundle.js",
+    "*.min.css",
+    "*.map",
+    "*.log",
+    "*.sql",
+    "*.gpg",
+    "*.crt",
+    "*.key",
+    "*.pub",
+    "*.pem",
+    "*.csr",
+    "*.jpg",
+    "*.jpeg",
+    "*.png",
+    "*.gif",
+    "*.svg",
+    "*.ttf",
+    "*.ico",
+    "*.eot",
+    "*.woff",
+    "*.pdf",
+    "*.swf",
+    "*.jar",
+    "*.zip",
+    "*.csv"
+  ],
+  "bold_folder_labels": true,
+  "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+  "font_options":
+  [
+    "gray_antialias",
+    "subpixel_antialias"
+  ],
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "indent_guide_options":
+  [
+    "draw_normal",
+    "draw_active"
+  ],
+  "line_padding_bottom": 3,
+  "line_padding_top": 3,
+  "overlay_scroll_bars": "enabled",
+  "rulers":
+  [
+    80
+  ],
+  "tab_size": 2,
+  "theme": "Material-Theme.sublime-theme",
+  "translate_tabs_to_spaces": true,
+  "update_check": false
+}

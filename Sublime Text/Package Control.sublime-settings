@@ -1,0 +1,18 @@
+{
+  "bootstrapped": true,
+  "in_process_packages":
+  [
+  ],
+  "installed_packages":
+  [
+    "Babel",
+    "Better CoffeeScript",
+    "EditorConfig",
+    "GitHub Flavored Markdown Preview",
+    "HyperClick",
+    "Material Theme",
+    "Package Control",
+    "SingleTrailingNewLine",
+    "TrailingSpaces"
+  ]
+}
