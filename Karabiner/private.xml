@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<root>
+  <item>
+    <name>Command+Button4 to Command+[</name>
+    <identifier>private.command_plus_button4_to_command_plus_openbracket</identifier>
+    <autogen>
+      __KeyToKey__
+      PointingButton::BUTTON4, ModifierFlag::COMMAND_L,
+      KeyCode::BRACKET_LEFT, ModifierFlag::COMMAND_L
+    </autogen>
+  </item>
+  <item>
+    <name>Command+Button5 to Command+]</name>
+    <identifier>private.command_plus_button5_to_command_plus_closebracket</identifier>
+    <autogen>
+      __KeyToKey__
+      PointingButton::BUTTON5, ModifierFlag::COMMAND_L,
+      KeyCode::BRACKET_RIGHT, ModifierFlag::COMMAND_L
+    </autogen>
+  </item>
+  <item>
+    <name>Button4 to Control+LeftArrow</name>
+    <identifier>private.button4_to_control_plus_leftarrow</identifier>
+    <autogen>
+      __KeyToKey__
+      PointingButton::BUTTON4,
+      KeyCode::CURSOR_LEFT, ModifierFlag::CONTROL_L
+    </autogen>
+  </item>
+  <item>
+    <name>Button5 to Control+RightArrow</name>
+    <identifier>private.button5_to_control_plus_rightarrow</identifier>
+    <autogen>
+      __KeyToKey__
+      PointingButton::BUTTON5,
+      KeyCode::CURSOR_RIGHT, ModifierFlag::CONTROL_L
+    </autogen>
+  </item>
+  <item>
+    <name>Cmd+Shift+I to None</name>
+    <identifier>private.cmd_shift_i_to_none</identifier>
+    <autogen>
+      __KeyToKey__
+      KeyCode::I, ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L,
+      KeyCode::VK_NONE
+    </autogen>
+  </item>
+</root>
