@@ -1,0 +1,30 @@
+{
+    "terminal.integrated.confirmOnExit": true,
+    "terminal.integrated.experimentalRestore": true,
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.sql": true,
+        "**/*.min.js": true
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*.pyc": true,
+        "**/*.map": true
+    },
+    "editor.rulers": [
+        80
+    ],
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "python.linting.flake8Enabled": true,
+    "editor.tabSize": 2,
+    "files.associations": {
+        "*.cjsx.md": "coffee",
+        "*.litcoffee": "coffee"
+    }
+}
