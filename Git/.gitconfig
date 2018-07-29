@@ -1,0 +1,11 @@
+# This is Git's per-user configuration file.
+[user]
+  name = Anton Gilgur
+  email = agilgur5@gmail.com
+[credential]
+  helper = osxkeychain
+[pull]
+  rebase = true
+[core]
+  autocrlf = input
+  excludesfile = /Users/agilgur5/.gitignore_global
