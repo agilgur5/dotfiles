@@ -5,11 +5,9 @@ set -e; # exit immediately if any errors occur
 echo 'Installing Xcode command-line tools...'
 xcode-select --install;
 
-echo 'Installing Hombrew...';
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)";
-
-echo 'Installing (non-system) Python and pip...';
-brew install python2;
+pushd Homebrew;
+bash install.sh;
+popd;
 
 
 echo 'Configuring applicatins...';
