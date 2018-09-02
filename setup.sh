@@ -22,10 +22,8 @@ cp Karabiner/karabiner.json ~/.config/karabiner/karabiner.json;
 # add Vim config
 cp Vim/.vimrc ~/.vimrc;
 
-# add VSCode config
-cp VSCode/settings.json ~/Library/Application\ Support/Code/User/settings.json;
-
-echo 'Installing VSCode Extensions...';
-bash VSCode/extensions.sh;
+pushd VSCode;
+bash install.sh;
+popd;
 
 echo 'All done! :)';
