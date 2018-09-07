@@ -1,2 +1,2 @@
 echo 'Generating Brewfile...';
-brew bundle dump;
+brew bundle dump -f;
