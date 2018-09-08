@@ -7,7 +7,7 @@ Settings for editors, OSes, etc to carry over across computers
 To install these settings, run:
 
 ```bash
-bash setup.sh
+bash install.sh
 ```
 
 To programatically generate these settings from an existing environment, run:

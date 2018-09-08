@@ -1,7 +1,7 @@
 pushd Homebrew;
-bash generator.sh;
+bash generate.sh;
 popd;
 
 pushd VSCode;
-bash generator.sh;
+bash generate.sh;
 popd;
