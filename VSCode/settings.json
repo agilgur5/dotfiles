@@ -1,14 +1,28 @@
 {
     "terminal.integrated.confirmOnExit": true,
     "terminal.integrated.experimentalRestore": true,
+    "window.restoreWindows": "all",
     "window.zoomLevel": 0,
     "search.exclude": {
+        "**/*.sql": true,
+        // javascript
         "**/node_modules": true,
         "**/bower_components": true,
-        "**/*.sql": true,
         "**/*.min.js": true,
         "**/*.bundle.js": true,
-        "**/staticBuilds/*": true
+        "**/build/*": true,
+        "**/staticBuilds/*": true,
+        "**/dist/*": true,
+        "**/coverage/*": true,
+        "**/package-lock.json": true,
+        "**/yarn.lock": true,
+        // python
+        "**/.pytest_cache/*": true,
+        "**/*.egg-info/*": true,
+        "**/Pipfile.lock": true,
+        "**/poetry.lock": true,
+        "**/htmlcov/*": true,
+        "**/coverage.xml": true,
     },
     "files.exclude": {
         "**/.git": true,
@@ -23,19 +37,18 @@
         80
     ],
     "editor.tabSize": 2,
+    "breadcrumbs.enabled": true,
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
     "files.associations": {
         "*.cjsx.md": "coffee",
         "*.litcoffee": "coffee",
         "Vagrantfile": "ruby",
-        "*.cssm": "css"
+        "*.cssm": "css",
+        "*.gs": "javascript"
     },
     "python.linting.flake8Enabled": true,
     "javascript.validate.enable": false,
-    "standard.options": {
-      "parser": "babel-eslint"
-    },
     "javascript.updateImportsOnFileMove.enabled": "never",
     "markdownlint.config": {
       "default": true,
