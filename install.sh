@@ -9,6 +9,10 @@ pushd Homebrew;
 bash install.sh;
 popd;
 
+pushd Bash;
+bash install.sh;
+popd;
+
 
 echo 'Configuring applicatins...';
 
