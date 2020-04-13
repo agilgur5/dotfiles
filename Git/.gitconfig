@@ -8,5 +8,5 @@
   rebase = true
 [core]
   autocrlf = input
-  excludesfile = /Users/agilgur5/.gitignore_global
+  excludesfile = ~/.gitignore_global
   editor = code --wait
