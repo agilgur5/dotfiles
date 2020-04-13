@@ -1,11 +1,11 @@
-pushd Homebrew;
+pushd Homebrew > /dev/null;
 bash generate.sh;
-popd;
+popd > /dev/null;
 
-pushd VSCode;
+pushd VSCode > /dev/null;
 bash generate.sh;
-popd;
+popd > /dev/null;
 
-pushd Bash;
+pushd Bash > /dev/null;
 bash generate.sh;
-popd;
+popd > /dev/null;

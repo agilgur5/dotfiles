@@ -5,16 +5,16 @@ set -e; # exit immediately if any errors occur
 echo 'Installing Xcode command-line tools...'
 xcode-select --install;
 
-pushd Homebrew;
+pushd Homebrew > /dev/null;
 bash install.sh;
-popd;
+popd > /dev/null;
 
-pushd Bash;
+pushd Bash > /dev/null;
 bash install.sh;
-popd;
+popd > /dev/null;
 
 
-echo 'Configuring applicatins...';
+echo 'Configuring applications...';
 
 # add Git global configs
 cp Git/.gitignore_global ~/;
@@ -26,8 +26,8 @@ cp Karabiner/karabiner.json ~/.config/karabiner/karabiner.json;
 # add Vim config
 cp Vim/.vimrc ~/.vimrc;
 
-pushd VSCode;
+pushd VSCode > /dev/null;
 bash install.sh;
-popd;
+popd > /dev/null;
 
 echo 'All done! :)';
