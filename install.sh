@@ -16,9 +16,9 @@ popd > /dev/null;
 
 echo 'Configuring applications...';
 
-# add Git global configs
-cp Git/.gitignore_global ~/;
-cp Git/.gitconfig ~/;
+pushd Git > /dev/null;
+bash install.sh;
+popd > /dev/null;
 
 # add Karabiner config
 cp Karabiner/karabiner.json ~/.config/karabiner/karabiner.json;
