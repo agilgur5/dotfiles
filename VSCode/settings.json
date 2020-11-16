@@ -14,9 +14,11 @@
         "**/build/*": true,
         "**/staticBuilds/*": true,
         "**/dist/*": true,
+        "**/.nyc_output/*": true,
         "**/coverage/*": true,
         "**/package-lock.json": true,
         "**/yarn.lock": true,
+        "**/yarn-error.log": true,
         // python
         "**/.pytest_cache/*": true,
         "**/*.egg-info/*": true,
