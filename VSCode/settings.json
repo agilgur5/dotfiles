@@ -1,6 +1,7 @@
 {
     "terminal.integrated.confirmOnExit": true,
     "terminal.integrated.experimentalRestore": true,
+    "terminal.integrated.shell.osx": "/bin/bash",
     "window.restoreWindows": "all",
     "window.zoomLevel": 0,
     "search.exclude": {
