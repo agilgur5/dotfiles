@@ -1,3 +1,4 @@
+code --install-extension be5invis.toml
 code --install-extension DavidAnson.vscode-markdownlint
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension drKnoxy.eslint-disable-snippets

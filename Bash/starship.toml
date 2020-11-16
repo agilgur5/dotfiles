@@ -1,0 +1,2 @@
+[kubernetes]
+disabled = false  # turn on k8s prompt, which is disabled by default
