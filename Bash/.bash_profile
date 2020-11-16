@@ -25,15 +25,18 @@ fi
 
 # JS/Node configuration
 export NVM_DIR="$HOME/.nvm"
+# load nvm
 if [ -s "/usr/local/opt/nvm/nvm.sh" ]; then
   . "/usr/local/opt/nvm/nvm.sh"
 fi
+# load nvm bash_completion
 if [ -s "/usr/local/opt/nvm/etc/bash_completion" ]; then
   . "/usr/local/opt/nvm/etc/bash_completion"
 fi
 
 
 # Python configuration
+# load pyenv
 if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
