@@ -1,2 +1,61 @@
+# slightly change default so that k8s comes after directory (next to Docker)
+# k8s is by default before the directory, like SSH style username/hostname,
+# but one is not necessarily running commands on the current k8s cluster/ns
+format = """
+$username\
+$hostname\
+$shlvl\
+$directory\
+$git_branch\
+$git_commit\
+$git_state\
+$git_status\
+$hg_branch\
+$kubernetes\
+$docker_context\
+$package\
+$cmake\
+$dart\
+$dotnet\
+$elixir\
+$elm\
+$erlang\
+$golang\
+$helm\
+$java\
+$julia\
+$nim\
+$nodejs\
+$ocaml\
+$perl\
+$php\
+$purescript\
+$python\
+$ruby\
+$rust\
+$swift\
+$terraform\
+$zig\
+$nix_shell\
+$conda\
+$memory_usage\
+$aws\
+$gcloud\
+$openstack\
+$env_var\
+$crystal\
+$cmd_duration\
+$custom\
+$line_break\
+$lua\
+$jobs\
+$battery\
+$time\
+$status\
+$character"""
+
 [kubernetes]
 disabled = false  # turn on k8s prompt, which is disabled by default
+# default is SSH style, with "in" suffix, use AWS style "on" prefix instead
+# bc one is not necessarily running commands on the current k8s cluster/ns
+format = 'on [$symbol$context( \($namespace\))]($style) '
