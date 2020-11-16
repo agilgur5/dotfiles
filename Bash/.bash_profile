@@ -1,3 +1,6 @@
+# default editor
+export EDITOR="code --wait"
+
 # Bash completions
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
