@@ -6,21 +6,10 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
 fi
 
-# add kube_ps1 function for a Bash prompt / PS1 for k8s
-if [ -f "$(brew --prefix)/opt/kube-ps1/share/kube-ps1.sh" ]; then
-  source "$(brew --prefix)/opt/kube-ps1/share/kube-ps1.sh"
-fi
 
-# customize Git prompt below with kube_ps1
-function prompt_callback() {
-  echo -n " $(kube_ps1)"
-}
-
-# Bash prompt / PS1 for Git -- prompt is dynamic and uses prompt_callback above
-if [ -f "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh" ]; then
-  __GIT_PROMPT_DIR=$(brew --prefix)/opt/bash-git-prompt/share
-  source "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh"
-fi
+# add fancy Bash prompt with starship.rs
+# does git, k8s, AWS, Gcloud, Terraform, etc, etc out-of-the-box
+eval "$(starship init bash)"
 
 
 # JS/Node configuration
