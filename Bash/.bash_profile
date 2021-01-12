@@ -1,5 +1,8 @@
-# default editor
+# Add VSCode to $PATH
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+# Set VSCode to default $EDITOR
 export EDITOR="code --wait"
+
 
 # Bash completions
 if [ -f $(brew --prefix)/etc/bash_completion ]; then

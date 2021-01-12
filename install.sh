@@ -11,6 +11,8 @@ popd > /dev/null;
 
 pushd Bash > /dev/null;
 bash install.sh;
+# make sure future commands (like `code --install...`) can use new path etc
+source ~/.bash_profile;
 popd > /dev/null;
 
 
