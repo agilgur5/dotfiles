@@ -2,7 +2,7 @@
 # initial setup script for macOS
 set -e; # exit immediately if any errors occur
 
-echo 'Installing Xcode command-line tools...'
+echo 'Installing Xcode command-line tools...';
 xcode-select --install;
 
 pushd Homebrew > /dev/null;
