@@ -19,6 +19,10 @@ pushd Zsh > /dev/null;
 bash install.sh;
 popd > /dev/null;
 
+pushd Ssh > /dev/null;
+bash install.sh;
+popd > /dev/null;
+
 echo 'Configuring applications...';
 
 pushd Git > /dev/null;

@@ -14,6 +14,10 @@ pushd Zsh > /dev/null;
 bash generate.sh;
 popd > /dev/null;
 
+pushd Ssh > /dev/null;
+bash generate.sh;
+popd > /dev/null;
+
 pushd Git > /dev/null;
 bash generate.sh;
 popd > /dev/null;
