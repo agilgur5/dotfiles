@@ -58,7 +58,9 @@
         "Vagrantfile": "ruby",
         "*.cssm": "css",
         "*.gs": "javascript",
-        "*.env": "shellscript"
+        "*.env": "shellscript",
+        ".bash_profile_work": "shellscript",
+        ".zprofile_work": "shellscript"
     },
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter.notebook.ipynb"
