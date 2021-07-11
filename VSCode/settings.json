@@ -1,4 +1,6 @@
 {
+    // misc VSCode settings
+    "security.workspace.trust.untrustedFiles": "open",
     // terminal settings
     "terminal.integrated.confirmOnExit": true,
     "terminal.integrated.experimentalRestore": true,
@@ -55,7 +57,8 @@
         "*.litcoffee": "coffee",
         "Vagrantfile": "ruby",
         "*.cssm": "css",
-        "*.gs": "javascript"
+        "*.gs": "javascript",
+        "*.env": "shellscript"
     },
     // linter settings
     "markdownlint.config": {
