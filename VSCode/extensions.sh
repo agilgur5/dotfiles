@@ -4,6 +4,7 @@ code --install-extension dbaeumer.vscode-eslint
 code --install-extension drKnoxy.eslint-disable-snippets
 code --install-extension eamodio.gitlens
 code --install-extension ms-python.python
+code --install-extension ms-toolsai.jupyter
 code --install-extension plex.vscode-regolint
 code --install-extension redhat.vscode-yaml
 code --install-extension rogalmic.bash-debug

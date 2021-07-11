@@ -60,6 +60,9 @@
         "*.gs": "javascript",
         "*.env": "shellscript"
     },
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
     // linter settings
     "markdownlint.config": {
         "default": true,
