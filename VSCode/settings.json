@@ -1,11 +1,20 @@
 {
+    // terminal settings
     "terminal.integrated.confirmOnExit": true,
     "terminal.integrated.experimentalRestore": true,
     // use Bash 5 installed by Homebrew instead of the Bash 3 default on macOS
     "terminal.integrated.shell.osx": "/usr/local/bin/bash",
     "terminal.integrated.fontFamily": "FiraCode Nerd Font",
+    // window settings
     "window.restoreWindows": "all",
     "window.zoomLevel": 0,
+    "breadcrumbs.enabled": true,
+    // editor settings
+    "editor.rulers": [
+        80
+    ],
+    "editor.tabSize": 2,
+    // search settings
     "search.exclude": {
         "**/*.sql": true,
         // javascript
@@ -29,6 +38,9 @@
         "**/htmlcov/*": true,
         "**/coverage.xml": true,
     },
+    // files settings
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
@@ -38,13 +50,6 @@
         "**/*.pyc": true,
         "**/*.map": true
     },
-    "editor.rulers": [
-        80
-    ],
-    "editor.tabSize": 2,
-    "breadcrumbs.enabled": true,
-    "files.trimTrailingWhitespace": true,
-    "files.insertFinalNewline": true,
     "files.associations": {
         "*.cjsx.md": "coffee",
         "*.litcoffee": "coffee",
@@ -52,13 +57,14 @@
         "*.cssm": "css",
         "*.gs": "javascript"
     },
+    // linter settings
+    "markdownlint.config": {
+        "default": true,
+        "no-inline-html": false
+    },
     "python.linting.flake8Enabled": true,
     "javascript.validate.enable": false,
     "javascript.updateImportsOnFileMove.enabled": "never",
-    "markdownlint.config": {
-      "default": true,
-      "no-inline-html": false
-    }
     "shellcheck.enableQuickFix": true,
     "shellcheck.customArgs": [
         "-x"
