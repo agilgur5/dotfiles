@@ -10,6 +10,10 @@ pushd Bash > /dev/null;
 bash generate.sh;
 popd > /dev/null;
 
+pushd Zsh > /dev/null;
+bash generate.sh;
+popd > /dev/null;
+
 pushd Git > /dev/null;
 bash generate.sh;
 popd > /dev/null;

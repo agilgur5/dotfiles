@@ -15,6 +15,9 @@ bash install.sh;
 source ~/.bash_profile;
 popd > /dev/null;
 
+pushd Zsh > /dev/null;
+bash install.sh;
+popd > /dev/null;
 
 echo 'Configuring applications...';
 
