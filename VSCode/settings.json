@@ -74,5 +74,15 @@
     "shellcheck.enableQuickFix": true,
     "shellcheck.customArgs": [
         "-x"
-    ]
+    ],
+    // gitlens settings
+    // turn off all avatars; they're distracting and don't work most of the time
+    "gitlens.blame.avatars": false,
+    "gitlens.views.branches.avatars": false,
+    "gitlens.views.commits.avatars": false,
+    "gitlens.views.contributors.avatars": false,
+    "gitlens.views.fileHistory.avatars": false,
+    "gitlens.views.repositories.avatars": false,
+    "gitlens.views.searchAndCompare.avatars": false,
+    "gitlens.views.tags.avatars": false
   }
