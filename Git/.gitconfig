@@ -10,3 +10,6 @@
   autocrlf = input
   excludesfile = ~/.gitignore_global
   editor = code --wait
+
+[includeIf "gitdir:~/Desktop/GitHub/oss/"]
+  path = ~/.gitconfig_oss
