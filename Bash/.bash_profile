@@ -1,3 +1,6 @@
+
+# shellcheck shell=bash
+
 # Add VSCode to $PATH
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 # Set VSCode to default $EDITOR

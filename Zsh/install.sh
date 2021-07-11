@@ -1,3 +1,4 @@
+#!/bin/bash
 echo 'Configuring Zsh...';
 sudo cp .zprofile ~/.zprofile;
 sudo cp .zprofile_work ~/.zprofile_work;

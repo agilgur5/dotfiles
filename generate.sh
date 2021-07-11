@@ -1,3 +1,4 @@
+#!/bin/bash
 pushd Homebrew > /dev/null;
 bash generate.sh;
 popd > /dev/null;

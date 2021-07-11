@@ -1,0 +1,2 @@
+
+# shellcheck shell=bash  # actually zsh but shellcheck doesn't recognize it

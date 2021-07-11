@@ -1,3 +1,4 @@
+#!/bin/bash
 code --install-extension be5invis.toml
 code --install-extension DavidAnson.vscode-markdownlint
 code --install-extension dbaeumer.vscode-eslint

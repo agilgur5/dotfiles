@@ -1,3 +1,6 @@
+
+# shellcheck shell=bash  # actually zsh but shellcheck doesn't recognize it
+
 setopt INTERACTIVE_COMMENTS # allow comments in interactive shell
 
 autoload -Uz compinit && compinit # load completions
