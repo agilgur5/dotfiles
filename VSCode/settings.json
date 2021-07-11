@@ -1,7 +1,8 @@
 {
     "terminal.integrated.confirmOnExit": true,
     "terminal.integrated.experimentalRestore": true,
-    "terminal.integrated.shell.osx": "/bin/bash",
+    // use Bash 5 installed by Homebrew instead of the Bash 3 default on macOS
+    "terminal.integrated.shell.osx": "/usr/local/bin/bash",
     "terminal.integrated.fontFamily": "FiraCode Nerd Font",
     "window.restoreWindows": "all",
     "window.zoomLevel": 0,
@@ -58,4 +59,8 @@
       "default": true,
       "no-inline-html": false
     }
+    "shellcheck.enableQuickFix": true,
+    "shellcheck.customArgs": [
+        "-x"
+    ]
   }
