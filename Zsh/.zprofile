@@ -24,10 +24,20 @@ if [ -s "/usr/local/opt/nvm/nvm.sh" ]; then
   . "/usr/local/opt/nvm/nvm.sh"
 fi
 
+
 # Python configuration
 # load pyenv
 if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
+fi
+
+
+# Go configuration
+# load goenv
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(goenv init -)"
+  export PATH="$GOROOT/bin:$PATH"
+  export PATH="$PATH:$GOPATH/bin"
 fi
 
 

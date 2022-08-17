@@ -37,5 +37,14 @@ if command -v pyenv 1>/dev/null 2>&1; then
 fi
 
 
+# Go configuration
+# load goenv
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(goenv init -)"
+  export PATH="$GOROOT/bin:$PATH"
+  export PATH="$PATH:$GOPATH/bin"
+fi
+
+
 # load work-specific config on top
 source ~/.bash_profile_work
