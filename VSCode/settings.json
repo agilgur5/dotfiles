@@ -4,6 +4,7 @@
     // terminal settings
     "terminal.integrated.confirmOnExit": true,
     "terminal.integrated.experimentalRestore": true,
+    "terminal.integrated.scrollback": 10000,
     // use Bash 5 installed by Homebrew instead of the Bash 3 default on macOS
     "terminal.integrated.shell.osx": "/usr/local/bin/bash",
     "terminal.integrated.fontFamily": "FiraCode Nerd Font",
