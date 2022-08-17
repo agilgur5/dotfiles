@@ -65,6 +65,7 @@
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter.notebook.ipynb"
     },
+    "svelte.enable-ts-plugin": true,
     // linter settings
     "markdownlint.config": {
         "default": true,
