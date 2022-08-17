@@ -2,8 +2,10 @@
 # initial setup script for macOS
 set -e; # exit immediately if any errors occur
 
-echo 'Installing Xcode command-line tools...';
-xcode-select --install;
+if ! xcode-select -p 1>/dev/null 2>&1; then
+  echo 'Installing Xcode command-line tools...';
+  xcode-select --install;
+fi
 
 pushd Homebrew > /dev/null;
 bash install.sh;
