@@ -1,4 +1,5 @@
 #!/bin/bash
+code --install-extension 42Crunch.vscode-openapi
 code --install-extension be5invis.toml
 code --install-extension DavidAnson.vscode-markdownlint
 code --install-extension dbaeumer.vscode-eslint
@@ -6,6 +7,7 @@ code --install-extension drKnoxy.eslint-disable-snippets
 code --install-extension eamodio.gitlens
 code --install-extension golang.go
 code --install-extension jetmartin.bats
+code --install-extension hashicorp.terraform
 code --install-extension ms-python.python
 code --install-extension ms-toolsai.jupyter
 code --install-extension plex.vscode-regolint
@@ -15,3 +17,4 @@ code --install-extension samverschueren.final-newline
 code --install-extension svelte.svelte-vscode
 code --install-extension timonwong.shellcheck
 code --install-extension tsandall.opa
+code --install-extension zxh404.vscode-proto3
