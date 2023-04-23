@@ -31,9 +31,6 @@ pushd Git > /dev/null;
 bash install.sh;
 popd > /dev/null;
 
-# add Karabiner config
-cp Karabiner/karabiner.json ~/.config/karabiner/karabiner.json;
-
 # add Vim config
 cp Vim/.vimrc ~/.vimrc;
 
