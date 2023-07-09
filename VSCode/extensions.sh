@@ -27,3 +27,4 @@ code --install-extension svelte.svelte-vscode
 code --install-extension timonwong.shellcheck
 code --install-extension tsandall.opa
 code --install-extension zxh404.vscode-proto3
+code --install-extension Vue.volar
