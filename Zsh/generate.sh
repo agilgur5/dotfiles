@@ -1,7 +1,4 @@
 #!/bin/bash
-echo 'Generating ~/.zprofile...';
-cp ~/.zprofile .zprofile;
-cp ~/.zprofile_work .zprofile_work;
-
-echo 'Generating ~/.config/starship.toml...';
-cp ~/.config/starship.toml starship.toml;
+echo 'Generating ~/.zshrc...';
+cp ~/.zshrc .zshrc;
+cp ~/.zshrc_work .zshrc_work;

@@ -42,4 +42,4 @@ fi
 
 
 # load work-specific config on top
-source ~/.zprofile_work
+source ~/.zshrc_work

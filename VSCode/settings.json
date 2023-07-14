@@ -5,8 +5,7 @@
     "terminal.integrated.confirmOnExit": true,
     "terminal.integrated.experimentalRestore": true,
     "terminal.integrated.scrollback": 100000,
-    // use Bash 5 installed by Homebrew instead of the Bash 3 default on macOS
-    "terminal.integrated.shell.osx": "/usr/local/bin/bash",
+    "terminal.integrated.shell.osx": "/bin/zsh",
     "terminal.integrated.fontFamily": "FiraCode Nerd Font",
     // window settings
     "window.restoreWindows": "all",
@@ -61,7 +60,7 @@
         "*.gs": "javascript",
         "*.env": "shellscript",
         ".bash_profile_work": "shellscript",
-        ".zprofile_work": "shellscript"
+        ".zshrc_work": "shellscript"
     },
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter.notebook.ipynb"

@@ -7,6 +7,10 @@ pushd VSCode > /dev/null;
 bash generate.sh;
 popd > /dev/null;
 
+pushd Shell > /dev/null;
+bash generate.sh;
+popd > /dev/null;
+
 pushd Bash > /dev/null;
 bash generate.sh;
 popd > /dev/null;

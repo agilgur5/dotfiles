@@ -11,6 +11,10 @@ pushd Homebrew > /dev/null;
 bash install.sh;
 popd > /dev/null;
 
+pushd Shell > /dev/null;
+bash install.sh;
+popd > /dev/null;
+
 pushd Bash > /dev/null;
 bash install.sh;
 # make sure future commands (like `code --install...`) can use new path etc
