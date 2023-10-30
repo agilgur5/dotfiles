@@ -19,30 +19,20 @@ export EDITOR="code --wait"
 # add fancy Zsh prompt with starship.rs (does git, k8s, AWS, Gcloud, Terraform, etc, etc out-of-the-box)
 eval "$(starship init zsh)"
 
-
-# JS/Node configuration
-export NVM_DIR="$HOME/.nvm"
-# load nvm
-if [ -s "/usr/local/opt/nvm/nvm.sh" ]; then
-  . "/usr/local/opt/nvm/nvm.sh"
-fi
-
-
 # Python configuration
-# load pyenv
 if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
 
-
-# Go configuration
-# load goenv
-if command -v goenv 1>/dev/null 2>&1; then
-  eval "$(goenv init -)"
-  export PATH="$GOROOT/bin:$PATH"
-  export PATH="$PATH:$GOPATH/bin"
+# load asdf version manager (https://asdf-vm.com/guide/getting-started.html#_3-install-asdf)
+if [ -f $(brew --prefix asdf)/libexec/asdf.sh ]; then
+  . $(brew --prefix asdf)/libexec/asdf.sh
 fi
 
+# Go configuration
+if [ -f ~/.asdf/plugins/golang/set-env.zsh ]; then
+  . ~/.asdf/plugins/golang/set-env.zsh
+fi
 
 # load work-specific config on top
 source ~/.zshrc_work
