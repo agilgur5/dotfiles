@@ -19,20 +19,8 @@ export EDITOR="code --wait"
 # add fancy Zsh prompt with starship.rs (does git, k8s, AWS, Gcloud, Terraform, etc, etc out-of-the-box)
 eval "$(starship init zsh)"
 
-# Python configuration
-if command -v pyenv 1>/dev/null 2>&1; then
-  eval "$(pyenv init -)"
-fi
-
-# load asdf version manager (https://asdf-vm.com/guide/getting-started.html#_3-install-asdf)
-if [ -f $(brew --prefix asdf)/libexec/asdf.sh ]; then
-  . $(brew --prefix asdf)/libexec/asdf.sh
-fi
-
-# Go configuration
-if [ -f ~/.asdf/plugins/golang/set-env.zsh ]; then
-  . ~/.asdf/plugins/golang/set-env.zsh
-fi
+# load asdf / rtx version manager (https://github.com/jdx/rtx#rtx-activate-options-shell_type)
+eval "$(rtx activate zsh)"
 
 # load work-specific config on top
 source ~/.zshrc_work
