@@ -3,6 +3,11 @@
 
 setopt INTERACTIVE_COMMENTS # allow comments in interactive shell
 
+# configure completions
+# add brew completions (https://github.com/Homebrew/brew/blob/4.1.10/docs/Shell-Completion.md#configuring-completions-in-zsh)
+if type brew &>/dev/null ; then
+  FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
+fi
 autoload -Uz compinit && compinit # load completions
 setopt complete_aliases # use completions for aliases too
 
@@ -11,9 +16,7 @@ export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/b
 # Set VSCode to default $EDITOR
 export EDITOR="code --wait"
 
-
-# add fancy Zsh prompt with starship.rs
-# does git, k8s, AWS, Gcloud, Terraform, etc, etc out-of-the-box
+# add fancy Zsh prompt with starship.rs (does git, k8s, AWS, Gcloud, Terraform, etc, etc out-of-the-box)
 eval "$(starship init zsh)"
 
 
