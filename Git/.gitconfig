@@ -1,4 +1,6 @@
 # This is Git's per-user configuration file.
+
+# preferences
 [user]
   name = Anton Gilgur
   email = agilgur5@gmail.com
@@ -6,6 +8,16 @@
   helper = osxkeychain
 [pull]
   rebase = true
+  autoSquash = true
+  updateRefs = true
+[fetch]
+  prune = true
+  pruneTags = true
+[rerere]
+  enabled = true
+  autoupdate = true
+[commit]
+  verbose = true
 [core]
   autocrlf = input
   excludesfile = ~/.gitignore_global
@@ -13,5 +25,21 @@
 [init]
   defaultBranch = main
 
+# UI/UX improvements
+[help]
+  autocorrect = prompt
+[diff]
+  algorithm = histogram
+  colorMoved = plain
+  mnemonicPrefix = true
+  renames = true
+[column]
+  ui = auto
+[branch]
+  sort = -committerdate
+[tag]
+  sort = version:refname
+
+# overrides
 [includeIf "gitdir:~/Desktop/GitHub/oss/"]
   path = ~/.gitconfig_oss
