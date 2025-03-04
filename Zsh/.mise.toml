@@ -1,0 +1,4 @@
+[tools]
+nodejs = "22"
+python = "3.13"
+golang = "1.24"

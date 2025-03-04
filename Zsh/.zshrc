@@ -19,8 +19,8 @@ export EDITOR="code --wait"
 # add fancy Zsh prompt with starship.rs (does git, k8s, AWS, Gcloud, Terraform, etc, etc out-of-the-box)
 eval "$(starship init zsh)"
 
-# load asdf / rtx version manager (https://github.com/jdx/rtx#rtx-activate-options-shell_type)
-eval "$(rtx activate zsh)"
+# load asdf / mise version manager (https://github.com/jdx/mise#quickstart)
+eval "$(mise activate zsh)"
 
 # load work-specific config on top
 source ~/.zshrc_work
