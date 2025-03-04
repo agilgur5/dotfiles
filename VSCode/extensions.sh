@@ -1,13 +1,13 @@
 #!/bin/bash
-code --install-extension 42Crunch.vscode-openapi
+code --install-extension 42crunch.vscode-openapi
 code --install-extension be5invis.toml
-code --install-extension DavidAnson.vscode-markdownlint
+code --install-extension davidanson.vscode-markdownlint
 code --install-extension dbaeumer.vscode-eslint
-code --install-extension drKnoxy.eslint-disable-snippets
+code --install-extension drknoxy.eslint-disable-snippets
 code --install-extension eamodio.gitlens
 code --install-extension golang.go
-code --install-extension jetmartin.bats
 code --install-extension hashicorp.terraform
+code --install-extension jetmartin.bats
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-kubernetes-tools.vscode-kubernetes-tools
 code --install-extension ms-python.isort
@@ -26,5 +26,5 @@ code --install-extension samverschueren.final-newline
 code --install-extension svelte.svelte-vscode
 code --install-extension timonwong.shellcheck
 code --install-extension tsandall.opa
+code --install-extension vue.volar
 code --install-extension zxh404.vscode-proto3
-code --install-extension Vue.volar
