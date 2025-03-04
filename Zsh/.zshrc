@@ -16,6 +16,7 @@ export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/b
 # Set VSCode to default $EDITOR
 export EDITOR="code --wait"
 
+
 # add fancy Zsh prompt with starship.rs (does git, k8s, AWS, Gcloud, Terraform, etc, etc out-of-the-box)
 eval "$(starship init zsh)"
 
