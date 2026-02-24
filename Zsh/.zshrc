@@ -3,13 +3,13 @@
 
 setopt INTERACTIVE_COMMENTS # allow comments in interactive shell
 
-# configure completions
-# add brew completions (https://github.com/Homebrew/brew/blob/4.1.10/docs/Shell-Completion.md#configuring-completions-in-zsh)
+# add brew completions: https://github.com/Homebrew/brew/blob/4.1.10/docs/Shell-Completion.md#configuring-completions-in-zsh
 if type brew &>/dev/null ; then
   FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
 fi
-autoload -Uz compinit && compinit # load completions
-setopt complete_aliases # use completions for aliases too
+# load completions and use them for aliases too
+autoload -Uz compinit && compinit
+setopt complete_aliases
 
 # Add VSCode to $PATH
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
