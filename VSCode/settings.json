@@ -33,12 +33,14 @@
         "**/yarn.lock": true,
         "**/yarn-error.log": true,
         // python
-        "**/.pytest_cache/*": true,
+        "**/.venv/*": true,
         "**/*.egg-info/*": true,
-        "**/Pipfile.lock": true,
-        "**/poetry.lock": true,
+        "**/.pytest_cache/*": true,
         "**/htmlcov/*": true,
         "**/coverage.xml": true,
+        "**/Pipfile.lock": true,
+        "**/poetry.lock": true,
+        "**/uv.lock": true,
     },
     // files settings
     "files.trimTrailingWhitespace": true,
