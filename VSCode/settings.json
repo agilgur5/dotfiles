@@ -4,7 +4,8 @@
     // terminal settings
     "terminal.integrated.confirmOnExit": true,
     "terminal.integrated.experimentalRestore": true,
-    "terminal.integrated.scrollback": 100000,
+    "terminal.integrated.persistentSessionScrollback": 10000,
+    "terminal.integrated.scrollback": 50000,
     "terminal.integrated.shell.osx": "/bin/zsh",
     "terminal.integrated.fontFamily": "FiraCode Nerd Font",
     // window settings
