@@ -69,6 +69,8 @@
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter.notebook.ipynb"
     },
+    // extension settings
+    "extensions.autoUpdate": false,
     "svelte.enable-ts-plugin": true,
     // linter settings
     "markdownlint.config": {
