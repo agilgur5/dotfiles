@@ -2,6 +2,7 @@
     // misc VSCode settings
     "security.workspace.trust.untrustedFiles": "open",
     // terminal settings
+    "terminal.integrated.initialHint": false, // no Copilot
     "terminal.integrated.confirmOnExit": true,
     "terminal.integrated.experimentalRestore": true,
     "terminal.integrated.persistentSessionScrollback": 10000,
