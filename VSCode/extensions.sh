@@ -4,10 +4,10 @@ code --install-extension be5invis.toml
 code --install-extension davidanson.vscode-markdownlint
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension drknoxy.eslint-disable-snippets
-code --install-extension eamodio.gitlens
 code --install-extension golang.go
 code --install-extension hashicorp.terraform
 code --install-extension jetmartin.bats
+code --install-extension mk12.better-git-line-blame
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-kubernetes-tools.vscode-kubernetes-tools
 code --install-extension ms-python.isort
