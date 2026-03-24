@@ -8,7 +8,7 @@ code --install-extension golang.go
 code --install-extension hashicorp.terraform
 code --install-extension jetmartin.bats
 code --install-extension mk12.better-git-line-blame
-code --install-extension ms-azuretools.vscode-docker
+code --install-extension ms-azuretools.vscode-containers
 code --install-extension ms-kubernetes-tools.vscode-kubernetes-tools
 code --install-extension ms-python.isort
 code --install-extension ms-python.python
